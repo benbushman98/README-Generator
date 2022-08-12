@@ -25,12 +25,15 @@ const questions = [
         name: 'usage',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'Please choose a license.',
         name: 'license',
         choices: [
             'MIT',
-            'etc',
+            'GPLv2',
+            'Apache 2.0',
+            'Unlicense',
+            'None'
         ]
     },
     {

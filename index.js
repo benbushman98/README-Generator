@@ -64,5 +64,5 @@ inquirer
     .prompt(questions)
     .then((data) => {
         fs.writeFile('./sample_readme/README.md', md(data), (err) =>
-            err ? console.error(err) : console.log('Success!'))
+            err ? console.error(err) : console.log('Success! You generated a README.md file!'))
     })

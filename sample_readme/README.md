@@ -1,9 +1,9 @@
-# Sample README Generated
+# Sample README Generator
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Description
-This section is a sample README description. Describe your project here.
+The description of your project goes in this section.
 
 ---
 
@@ -12,18 +12,18 @@ This section is a sample README description. Describe your project here.
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
+- [Tests](#test)
 - [Questions](#questions)
 
 ---
 
 ## Installation
-If you have any specific installation requirements for your project, please enter them here.
+Specific Installation instructions go in this section.
 
 ---
 
 ## Usage
-If you have any specific usage information, enter them here. 
+Usage information goes in this section.
 
 ---
 
@@ -34,15 +34,15 @@ Please visit to get more information: https://www.gnu.org/licenses/old-licenses/
 ---
 
 ## Contributing
-To contribute to this project, clone the repo and commit your code in a seperate branch. Additional guidelines go here.
+Specific guidlines go in this sections.
 
 ---
 
 ## Tests
-Please add testing guidelines here.
+Testing instructions go in this section.
 
 ---
 
 ## Questions
-Please visit me at https://github.com/YOUR GITHUB USERNAME. 
-If you have any additional questions or concerns, feel free to contact me at YOUR EMAIL.
+Please visit me at https://github.com/benbushman98. 
+If you have any additional questions or concerns, feel free to contact me at benbushman98@gmail.com.

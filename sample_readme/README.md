@@ -12,7 +12,7 @@ This section is a sample README description. Describe your project here.
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#test)
+- [Tests](#tests)
 - [Questions](#questions)
 
 ---

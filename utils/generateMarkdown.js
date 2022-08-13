@@ -16,17 +16,13 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license) {
   switch (license) {
     case'MIT':
-      const heremit = "https://opensource.org/licenses/MIT";
-      return `This project is licensed under the MIT license.\nPlease visit to get more information: ${heremit}`
+      return `This project is licensed under the MIT license.\nPlease visit to get more information: https://opensource.org/licenses/MIT`;
     case 'GPLv2':
-      const heregpl = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html";
-      return `This project is licensed under the GPLv2 license.\nPlease visit to get more information: ${heregpl}`
+      return `This project is licensed under the GPLv2 license.\nPlease visit to get more information: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html`;
     case 'Apache 2.0':
-      const hereapache = "https://www.apache.org/licenses/LICENSE-2.0";
-      return `This project is licensed under the Apache 2.0 license.\nPlease visit to get more information: ${hereapache}`
+      return `This project is licensed under the Apache 2.0 license.\nPlease visit to get more information: https://www.apache.org/licenses/LICENSE-2.0`;
     case 'Unlicense':
-      const hereunlicense = "https://unlicense.org/";
-      return `This project uses The Unlicense template.\nPlease visit to get more information: ${hereunlicense}`
+      return `This project uses The Unlicense template.\nPlease visit to get more information: https://unlicense.org/`;
     case 'None':
       return ""
   }

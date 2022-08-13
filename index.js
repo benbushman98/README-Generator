@@ -1,8 +1,9 @@
+// Required Packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 const md = require('./utils/generateMarkdown')
 
-
+// Array of prompts on the terminal
 const questions = [
     {
         type: 'input',
@@ -59,7 +60,7 @@ const questions = [
 ]
 
 
-
+// Initialization of application
 inquirer
     .prompt(questions)
     .then((data) => {

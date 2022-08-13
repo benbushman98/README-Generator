@@ -1,3 +1,4 @@
+// Function to render licese badge with options
 function renderLicenseBadge(license) {
   switch (license) {
     case'MIT':
@@ -12,7 +13,7 @@ function renderLicenseBadge(license) {
       return ""
   }
 }
-
+// Function to render licese section with options
 function renderLicenseSection(license) {
   switch (license) {
     case'MIT':
@@ -28,7 +29,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+//Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -80,4 +81,5 @@ If you have any additional questions or concerns, feel free to contact me at ${d
 `;
 }
 
+// Export generateMarkdown
 module.exports = generateMarkdown;

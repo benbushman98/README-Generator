@@ -7,3 +7,4 @@ This project was developed with node.js. When you need a professional README, co
 https://drive.google.com/file/d/1ec4i3cMlf0eGpK1hSPkQLQKKQUvR77DX/view?usp=sharing
 
 ## Screenshot of a generated README
+![Photo of generated sample readme](assets/img/sample_readme.png)

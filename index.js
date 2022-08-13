@@ -38,7 +38,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please describe specific contribution guidlines.',
+        message: 'Please describe specific contribution guidelines.',
         name: 'contribution',
     },
     {
@@ -63,6 +63,6 @@ const questions = [
 inquirer
     .prompt(questions)
     .then((data) => {
-        fs.writeFile('README.md', md(data), (err) =>
+        fs.writeFile('./sample_readme/README.md', md(data), (err) =>
             err ? console.error(err) : console.log('Success!'))
     })
